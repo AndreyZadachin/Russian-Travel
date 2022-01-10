@@ -1,0 +1,12 @@
+@import url('./__item_background-first/additional__item_background-first.css');
+@import url('./__item_background-second/additional__item_background-second.css');
+@import url('./__item_background-third/additional__item_background-third.css');
+@import url('./__item_background-fourth/additional__item_background-fourth.css');
+
+.additional__item {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 30px 18px;
+    margin-right: 16px;
+}

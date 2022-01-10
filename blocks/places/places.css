@@ -1,0 +1,42 @@
+@import url('./__container/places__container.css');
+@import url('./__image/places__image.css');
+@import url('./__text/__text-paragraph/places__text-paragraph.css');
+@import url('./__title/places__title.css');
+
+.places {
+    font-family: 'Inter', Arial, sans-serif;
+    width: 83.1%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(2, 2fr);
+    grid-row-gap: 72px;
+    grid-column-gap: 40px;
+    margin-bottom: 102px;
+    box-sizing: border-box;
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1279px) {
+    .places {
+        width: 928px;
+        grid-row-gap: 83px;
+        grid-column-gap: 32px;
+    }
+}
+
+@media screen and (max-width: 1023px) {
+    .places {
+        width: 100%;
+        grid-column-gap: 28px;
+        grid-row-gap: 40px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .places {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 16px;
+        margin: 0 auto;
+    }
+}

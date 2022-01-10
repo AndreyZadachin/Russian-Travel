@@ -1,0 +1,13 @@
+@import url('./__url-heading/places__url-heading.css');
+@import url('./__url/places__url.css');
+
+.places__container {
+    margin: 0;
+    align-self: end;
+}
+
+@media screen and (max-width: 767px) {
+    .places__container {
+        display: none;
+    }
+}

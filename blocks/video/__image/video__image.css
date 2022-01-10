@@ -1,0 +1,11 @@
+.video__image {
+    width: 583px;
+    height: 323px;
+    border-radius: 5px;
+    position: absolute;
+    opacity: .5;
+}
+
+.video__image:hover {
+    opacity: .2;
+}

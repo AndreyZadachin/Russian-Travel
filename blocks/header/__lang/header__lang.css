@@ -1,0 +1,15 @@
+@import url('../blocks/header/__link_active/header__link_active.css');
+@import url('../blocks/header/__link/header__link.css');
+
+.header__lang {
+    display: flex;
+    font-size: 24px;
+    text-decoration: none;
+    margin: 0;
+}
+
+@media screen and (max-width: 767px) {
+    .header__lang {
+        font-size: 18px;
+    }
+}

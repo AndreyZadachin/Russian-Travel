@@ -1,0 +1,5 @@
+.video__item_first {
+    background-image: url('./video__item_first.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
