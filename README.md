@@ -1,6 +1,6 @@
 # Russian-Travel
 
-## https://github.com/AndreyZadachin/Russian-Travel/index.html
+## https://AndreyZadachin.github.io/Russian-Travel/index.html
 
 ======
 
